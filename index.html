@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saleha Iftikhar's personal portfolio showcasing projects in software development, digital art, and marketing technology insights.">
+    <meta name="keywords" content="Saleha Iftikhar, Portfolio, Software Developer, Digital Art, JavaFX, Marketing, Technology">
+    <meta name="author" content="Saleha Iftikhar">
     <title>Saleha's Portfolio</title>
     <style>
         body {
@@ -12,65 +15,83 @@
             margin: 0;
             padding: 0;
         }
-
         header, section, footer {
             text-align: center;
             padding: 20px;
         }
-
         header h1 {
             color: #786FA6;
             font-size: 48px;
         }
-
         header p {
             font-size: 24px;
             color: #A6B1E1;
         }
-
         section {
             border-bottom: 2px solid #DCCDE8;
             padding: 40px 20px;
         }
-
         .project, .hobby {
             margin: 20px;
             padding: 20px;
             background-color: #F3F2F8;
             border-radius: 8px;
         }
-
         img {
             width: 100%;
-            max-width: 300px; 
+            max-width: 300px;
             height: auto;
             border-radius: 8px;
             margin: 10px;
         }
-
         footer {
             background-color: #DCCDE8;
             padding: 10px;
             font-size: 14px;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
         }
-
         footer a {
             color: #554E8F;
             text-decoration: none;
+            padding: 0 10px;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #ECE9F1;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        nav a {
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #554E8F;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#Important">Murphy</a>
+        <a href="#contact">Contact</a>
+    </nav>
     <header>
         <h1>Hi! I'm Saleha.</h1>
         <p>a programmer.</p>
-        <img src="me.png" alt="Saleha" style="max-width: 150px; height: auto;"> 
+        <img src="me.png" alt="Saleha" style="max-width: 150px; height: auto;">
     </header>
-
     <section id="about">
         <p>I am a Computer Science junior at Gettysburg College with minors in Mathematics and Data Science. I love coding and solving complex problems. I aspire to be a software engineer one day. Check out my projects and skills below!</p>
     </section>
-
     <section id="projects">
         <h2>My Projects</h2>
         <div class="project">
@@ -92,7 +113,6 @@
             <p>I recently engaged in a 20-hour remote project under the supervision of Drift's Marketing Manager, where I delved into marketing technology insights. During this time, I participated in a collaborative webinar with "Banzai," which provided me with advanced knowledge of effective webinar marketing strategies. I drafted a detailed <a href="https://www.drift.com/blog/boost-webinar-engagement/" target="_blank">blog</a> post summarizing these insights, further honing my content creation and digital marketing skills. This experience allowed me to explore the intersection of marketing and technology, expanding my understanding of industry-specific challenges and solutions.</p>
         </div>
     </section>
-
     <section id="hobbies">
         <h2>My Hobbies</h2>
         <p>When I'm not coding, I love to bake! Check out my creations on <a href="https://www.instagram.com/thecupcakenationn/" target="_blank">The Cupcake Nation Instagram Page</a>.</p>
@@ -103,10 +123,9 @@
             <img src="c4.png" alt="Cupcake Sample 4">
         </div>
     </section>
-
     <section id="Important">
         <h2>My Four-Legged Partner</h2>
-        <p> Meet Murphy! He has taught me more about patience and joy than any book or class ever could. He is not just my best friend, but my daily reminder to live in the moment.</p>
+        <p>Meet Murphy! He has taught me more about patience and joy than any book or class ever could. He is not just my best friend, but my daily reminder to live in the moment.</p>
         <div class="Important">
             <img src="m1.png" alt="Murphy">
             <img src="m2.png" alt="Murphy">
@@ -114,16 +133,13 @@
             <img src="m4.png" alt="Murphy">
         </div>
     </section>
-
-
     <section id="contact">
         <h2>Get In Touch</h2>
         <p>If you are interested in discussing programming, technology or anything else, feel free to reach out!</p>
         <a href="mailto:iftisa01@gettysburg.edu">Contact Me</a>
     </section>
-
     <footer>
-        <p>Connect with me on <a href="https://www.linkedin.com/in/saleha-iftikhar-896b79234">LinkedIn</a> or <a href="https://github.com/salehaiftikharr">GitHub</a>.</p>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/saleha-iftikhar-896b79234" target="_blank">LinkedIn</a>or<a href="https://github.com/salehaiftikharr" target="_blank">GitHub</a>.</p>
         <p>Copyright © 2024 Saleha Iftikhar</p>
     </footer>
 </body>
