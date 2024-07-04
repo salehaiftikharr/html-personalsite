@@ -1,5 +1,5 @@
 # html-personalsite
-Saleha's personal portfolio showcasing projects, skills, and personal interests. Includes interactive sections about my education, work, hobbies, and beloved dog.
+My personal portfolio showing my projects, skills, and personal interests. It includes interactive sections about my education, work, hobbies, and beloved dog.
 
 Saleha's Personal Portfolio
 Overview: 
