@@ -1,5 +1,5 @@
 # html-personalsite
-My personal portfolio showing my projects, skills, and personal interests. It includes interactive sections about my education, work, hobbies, and beloved dog.
+My personal portfolio showing my projects, skills, and personal interests. It includes interactive sections about my education, work, hobbies, and beloved dog. You can visit my live site here: https://salehaiftikharr.github.io/html-personalsite/.
 
 Saleha's Personal Portfolio
 Overview: 
